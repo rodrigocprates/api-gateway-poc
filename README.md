@@ -16,13 +16,13 @@ access http://localhost:9000/ghostbusters
 
 ### What's going on?
 
-Checkout apigatewaypoc-zuul/src/main/resources/application.properties
+Check out apigatewaypoc-zuul/src/main/resources/application.properties:
 
-server.port=8080 - runs zuul on port 8080
+    server.port=8080 - runs zuul on port 8080
 
-zuul.routes.book.url=http://localhost:9000 - route to our rest service at port 9000
+    zuul.routes.book.url=http://localhost:9000 - route to our rest service at port 9000
 
-zuul.routes.book.path=/movies/** - tells that every call over /movies will be redirected to our rest service api on port
+    zuul.routes.book.path=/movies/** - tells that every call over /movies will be redirected to our rest service api on port
 
 ### Build & Run
 

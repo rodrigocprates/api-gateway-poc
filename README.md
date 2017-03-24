@@ -1,5 +1,7 @@
 # API Gateway POC using Zuul and a simple REST service
 
+See https://github.com/Netflix/zuul.
+
 ## apigatewaypoc-service - simple REST service running on port 9000
 
 ### Build & Run
